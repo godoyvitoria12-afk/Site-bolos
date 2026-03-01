@@ -36,21 +36,6 @@ section a{
     text-decoration: none;
 }
 
-#menu {
-    background-color: rgba(32, 157, 42, 0.223);
-    padding: 20px;
-    text-align: center; /* Isso centraliza o link (texto) dentro da section */
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-#menu {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-    padding: 0px
-}
-
 nav a {
     color: black; 
     text-decoration: none; /* tira o sublinhado */
@@ -65,4 +50,14 @@ img {
     /* Adicione estas linhas abaixo: */
     max-width: 100%; /* Garante que a imagem não ultrapasse o 'main' */
     height: auto;    /* Mantém a proporção da imagem ao redimensionar */
+}
+
+#menu {
+    background-color: rgba(32, 157, 42, 0.223);
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
