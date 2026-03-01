@@ -1,0 +1,57 @@
+/* Está abrangindo todos os elementos e padronizando*/
+*{
+    margin: 0;/* removendo os espaços externos */
+    padding: 0;/* removendo os espaços internos */
+}
+
+header{
+    text-align: center;
+    background-color: rgb(18, 138, 34);
+    padding: 20px; 
+}
+
+body{
+    color: black;
+    background-color: rgb(234, 234, 207);
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+main{
+    max-width: 1000px; /* limita a largura */
+    margin: 20px auto; /* centraliza */
+    padding: 10px;
+}
+
+section {
+    background-color: rgba(32, 157, 42, 0.223);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+section a{
+    color: black;
+    text-decoration: none;
+}
+
+#menu {
+    background-color: rgba(32, 157, 42, 0.223);
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a {
+    color: black; 
+    text-decoration: none; /* tira o sublinhado */
+    font-weight: bold; /* config. da fonte */
+}
+
+img {
+    display: block; /* faz a imagem se comportar como um bloco */
+    margin: 0 auto; /* centraliza horizontalmente dentro da caixa*/
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
